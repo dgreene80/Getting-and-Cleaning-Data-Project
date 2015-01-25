@@ -1,5 +1,5 @@
-1/24/15 David Greene
-### Getting and Cleaning Data, Course Project
+1/24/15 David Greene  
+Getting and Cleaning Data, Course Project
 
 #### Assignment
 Create one R script called run_analysis.R that does the following:
@@ -21,7 +21,7 @@ Create one R script called run_analysis.R that does the following:
   1. Download the data provided for this project:  
      https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
   2. Unzip the file into the current working directory, which will create these directories:
-     * ./UCI HAR Dataset/train
-     * ./UCI HAR Dataset/test
-  3. Run the run_analysis.R script, which will generate a tidy data set called means_by_pers_actv.txt
+     * `./UCI HAR Dataset/train/`
+     * `./UCI HAR Dataset/test/`
+  3. Run the run_analysis.R script, which will generate a tidy data set called `means_by_pers_actv.txt`
 

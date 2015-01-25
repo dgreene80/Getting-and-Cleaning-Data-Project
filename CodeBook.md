@@ -1,7 +1,7 @@
 1/24/15 David Greene  
-Getting and Cleaning Data, Course Project
+Getting and Cleaning Data, Course Project  
+Code Book for: `means_by_pers_actv.txt`
 
-### Code Book for: `means_by_pers_actv.txt`
 #### Original Data
 The original data for this project can be downloaded from either of these two locations:  
   * https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
