@@ -1,14 +1,16 @@
 1/24/15 David Greene
 ### Getting and Cleaning Data, Course Project
-
-### Original Data
+### Code Book for means_by_pers_actv.txt
+#### Original Data
 The original data for this project can be downloaded from either of these two locations:  
   * https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
   * http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip
 
-### Study Design
-####Human Activity Recognition Using Smartphones Dataset
+#### Study Design
+#####Human Activity Recognition Using Smartphones Dataset
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.  
+International Workshop of Ambient Assisted Living (IWAAL 2012)
+
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years.
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope,
@@ -19,16 +21,16 @@ selected for generating the training data and 30% the test data.
 More information about the original data can be found here:  
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-### Transformations
-For this project, I performed the following tranformations:  
+#### Transformations
+For this project, I performed the following tranformations on the original data:  
 * Combined all training data and the testing data into one data set
 * Retained only columns related to mean and standard deviation
 * Replaced activity coded values with descriptive labels
-* Cleaned and column names to comply with R naming rules
-* Summarized the data by taking the mean of every measure by person and activity
-* Created a tidy data file, called means_by_pers_actv.txt
+* Cleaned column names to comply with R naming rules
+* Summarized the data by taking the mean of every measure, by person and activity
+* Created a tidy data file called means_by_pers_actv.txt
 
-### Code Book
+#### Code Book
 | Column Name               | Description                                     | Possible Values                                                          |
 | ------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------ |
 | person                    | Person Identifier                               | 1 to 30                                                                  |
