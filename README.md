@@ -18,7 +18,8 @@ Create one R script called run_analysis.R that does the following:
 | run_analysis.R         | R script used to generate the tidy data set, means_by_pers_actv.txt   |
 
 ### Steps to follow
-  1. Download the data provided for this project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+  1. Download the data provided for this project:  
+     https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
   2. Unzip the file into the current working directory, which will create these directories:
      * ./UCI HAR Dataset/train
      * ./UCI HAR Dataset/test

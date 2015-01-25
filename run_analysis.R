@@ -1,5 +1,5 @@
 ## 01/24/15 David Greene
-## Coursera, Getting and Cleaning Data, Course Project
+## Getting and Cleaning Data, Course Project
 ## This script performs these actions on the provided data:
 ##   1. Merges the training and the test sets to create one data set.
 ##   2. Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -44,7 +44,7 @@ df <- select(all_meas, matches("person|activity|\\.mean\\.|\\.std\\."))
 ## Perform Step 3:
 ##   3. Uses descriptive activity names to name the activities in the data set
 df <- transform(df, activity = actv_names$V2[activity])
-write.table(colnames(df),file="abc2.txt", row.name=FALSE)
+
 ## Perform Step 4:
 ##   4. Appropriately labels the data set with descriptive variable names.
 # I improved the variable names to make them more readable.
