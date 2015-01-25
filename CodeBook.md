@@ -4,8 +4,8 @@ Code Book for: `means_by_pers_actv.txt`
 
 #### Original Data
 The original data for this project can be downloaded from either of these two locations:  
-  * https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-  * http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip
+* https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+* http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip
 
 #### Original Study Design
 **Summary taken from original data documentation:**  
@@ -28,7 +28,7 @@ For this project, I performed the following tranformations on the original data:
 * Replaced activity coded values with descriptive labels
 * Cleaned column names to comply with R naming rules
 * Summarized the data by taking the mean of every measure, by person and activity
-* Created a tidy data file called means_by_pers_actv.txt
+* Created a tidy data file called `means_by_pers_actv.txt`
 
 #### Code Book
 | Column Name               | Description                                     | Possible Values                                                          |
